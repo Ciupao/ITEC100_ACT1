@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <title></title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="darkModeToggle" class="toggle-btn">🌙 Dark Mode</button>
+    </nav>
+<body>
+    <div id="project">
+        <div class="projectCon">
+            <h1>Online Appointment System for Barangay Document</h1>
+            <img src="images/OAS.jpg" onclick="openFullscreen(this)">
+            <p>The Online Appointment System for Barangay Documents is a web-based platform that streamlines the scheduling and processing of barangay document requests.</p>
+        </div>
+        <div class="projectCon">
+            <h1>Attendance Management System</h1>
+            <img src="images/OMS.JPG" onclick="openFullscreen(this)">
+            <p> The Attendance Management System is a web app that simplifies student attendance tracking.
+                Admin/teachers can securely log in to access a dashboard, view records, and get real-time notifications when
+                students mark attendance.
+                This system reduces manual work, improves accuracy, and keeps attendance records organized and up-to-date.
+            </p>
+        </div>
+        <div class="projectCon">
+            <h1>Library Management System</h1>
+            <img src="images/LMS.jpg" onclick="openFullscreen(this)">
+            <p>The Integrated Library Management System (ILMS) is designed to meet modern library needs by automating key
+                operations
+                such as user management, book cataloging, and circulation.
+                It serves both library staff and members, providing features like user registration and book borrowing,
+                while outlining the necessary functionalities, constraints, and interfaces.</p>
+        </div>
+        <div class="projectCon">
+            <h1>Cenit Wellness Management System</h1>
+            <img src="images/SPA-MS.png" onclick="openFullscreen(this)">
+            <p>The Spa Staff Scheduling and Payroll Management System is a user-friendly solution for spa businesses,
+                streamlining staff scheduling and payroll to ensure efficient operations and accurate compensation.</p>
+        </div>
+        <div class="projectCon">
+            <h1>BSIT 2 - 3 Student Portal</h1>
+            <img src="images/portal.png" onclick="openFullscreen(this)">
+            <p>The BSIT 2-3 Student Portal is a web platform aimed at enhancing the academic experience for second-year BSIT
+                students.
+                It provides a central hub for managing student information, registration forms,
+                and class schedules, supporting their academic journey efficiently.</p>
+        </div>
+        <div class="projectCon">
+            <h1>Simple E-commerce</h1>
+            <img src="images/Ridefixed.png" onclick="openFullscreen(this)">
+            <p>The Personal Online Shop is a simple platform for buying and selling products online. 
+                It allows users to list items for sale, manage orders, and connect with buyers easily. Ideal for small businesses 
+                or individual sellers, it offers a convenient way to sell products anytime, anywhere.</p>
+        </div>
+        <div class="projectCon">
+            <h1>Class Schedule</h1>
+            <img src="images/Schedule.png" onclick="openFullscreen(this)">
+            <p> Creating a class schedule using HTML and CSS involves structuring the HTML markup to
+                represent the schedule and styling it with CSS to make it visually appealing</p>
+        </div>
+        <div class="projectCon">
+            <h1>Snake Game</h1>
+            <img src="images/Picture2.png" onclick="openFullscreen(this)">
+            <p>A Snake Game in Java is a classic example of a simple 2D game. The game involves
+                controlling a snake that moves around a grid, eats food, and grows longer. The goal is
+                to avoid collisions with the game borders and the snake's own body.</p>
+        </div>
+        <div class="projectCon">
+            <h1>Shadow Resurrection Game</h1>
+            <img src="images/shadow.png" onclick="openFullscreen(this)">
+            <p>A 2D platformer game developed using pure Java, featuring smooth player movement, enemy AI, 
+                and multiple levels. The game includes immersive gameplay mechanics such as jumping, 
+                attacking, and collecting items. I implemented collision detection, sound effects, 
+                and engaging animations to enhance the gaming experience. This project helped me strengthen my knowledge of Java's game development libraries and object-oriented programming.</p>
+        </div>
+    </div>
+
+        <div id="fullscreenView" class="fullscreen" onclick="closeFullscreen()">
+            <div class="fullscreenContent">
+                <span class="close" onclick="closeFullscreen()">&times;</span>
+                <img id="fullscreenImg">
+                <p id="fullscreenDesc"></p>
+                <button class="exitBtn" onclick="closeFullscreen()">Exit</button>
+            </div>
+        </div>
+    <script src="js/script.js">
+    </script>  
+</body>
+</html>
